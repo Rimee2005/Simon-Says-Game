@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+ background-color: rgb(127, 103, 149);
+}
+
+
+.box-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.box-container .line div {
+  border: 8px solid black;
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  margin: 2rem;
+  display: grid;
+  justify-content: center;
+}
+
+@media( max-width: 500px){
+  .box-container .line div {
+    border: 6px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .h2{
+    justify-content: center;
+    display: flex;
+  }
+};
+
+.box-container .line div:hover {
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: #f99b45;
+}
+
+.red {
+  background-color: #d95980;
+}
+
+.purple {
+  background-color: #819ff9;
+}
+
+.green {
+  background-color: #63aac0;
+}
+
+.game-flash {
+  background-color: white;
+}
+
+.user-flash {
+  background-color: green;
+}
+
